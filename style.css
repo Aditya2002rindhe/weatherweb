@@ -1,0 +1,63 @@
+.container1{
+    position: absolute;
+    left: 35%;
+    text-align: center;
+}
+
+@media (max-width: 580px){
+    .container1{
+        width: 100vw;
+        left:0%;
+    }
+}
+
+#getcity{
+    width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+#getcity:hover{
+    box-shadow: 5px 5px lightblue;
+}
+
+.section{
+    display:flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: rgb(173, 72, 191);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 7px;
+}
+
+.status{
+    text-align: center;
+}
+
+.result{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#button{
+    background-color: rgb(118, 223, 133);
+    font-weight:700;
+    font-size: 15px;
+    border:2px solid tomato;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+#button:hover{
+    box-shadow: 5px 5px lightblue;
+}
+
+#para{
+    font-size: 25px;
+}
