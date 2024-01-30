@@ -35,6 +35,11 @@ const fetchdata = async (somecity) => {
   var gotdata = await fetch(
     `https://api.weatherapi.com/v1/current.json?key=a4a6ad3a7a9747ec84e92733242301&q=${somecity}&aqi=no`
   );
+
+  if(gotdata.status == 400){
+    alert("Please enter valid city");
+  }  
+    
   var data = await gotdata.json();
   console.log(data);
 
